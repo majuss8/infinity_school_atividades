@@ -1,0 +1,113 @@
+#banner{
+    background-image: url(https://dukesrefresher.ca/wp-content/uploads/2020/03/DRB_Banners_03-20_Pizza.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+    
+}
+/* #banner h1{
+    line-height: 200px;
+    height: 120px;
+    color: rgb(240, 248, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    background-color: rgba(175, 132, 121, 0.5);
+}
+#banner h4{
+    height: 100px;
+    color: rgb(240, 248, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    background-color: rgba(175, 132, 121, 0.5);
+} */
+#titulo{
+    line-height: 200px;
+    height: 250px;
+    color: rgb(240, 248, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    background-color: rgba(175, 132, 121, 0.5);
+    padding: 70px;
+}
+.nav-link{
+    margin-left: 200px;
+    color: rgba(0, 0, 0, 0.747);
+}
+#sobreNos{
+    margin-top: 50px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+#sobreNos h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000ce;
+}
+.pizzas{
+    width: 50%;
+    margin-left: 335px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
+.menu{
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.pizzasMenu{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.desc{
+    margin-right: 100px;
+}
+#precos{
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 300px;
+    text-align: center;
+
+}
+#divprecos{
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#refri{
+    width: 30px;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#pizzas{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+#bebida{
+    width: 100%;
+    background-color: #f2f2f2;
+    
+}
+#bebida h2{
+    margin-left: 30px;
+}
+#bebida p{
+    margin-left: 100px;
+    float: right;
+    margin-right: 850px;
+    margin-top: 80px;
+}
+

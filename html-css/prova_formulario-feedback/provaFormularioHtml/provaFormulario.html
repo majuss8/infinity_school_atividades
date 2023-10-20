@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="provaFormularioCss/provaFormulario.css">
+    <title>Formulário para Feedback</title>
+</head>
+<body>
+    <form id="formCadClientes">
+        <fieldset>
+            <legend>Mande seu feedback preenchendo os campos abaixo:</legend>
+            <label>Nome:</label>
+            <input type="text" name="nome" class="boxNome"><br>
+
+            <label>Email: </label>
+            <input type="text" name="email" class="boxNome"><br>
+
+            <label>Celular:</label>
+            <input type="number" name="celular" id="boxNumero" placeholder="(00)000000000" class="boxNome"><br>
+
+            <label>Escreva sua avaliação:</label>
+            <textarea name="feedback" id="" cols="30" rows="10"></textarea><br>
+            <input type="submit" name="enviar" value="Enviar" class="esquerda">
+            <input type="reset" name="limpar" value="Limpar" class="esquerda">
+        </fieldset>
+    </form><br>
+
+<table>
+    <tr>
+        <th colspan="3">Feedbacks</th>
+    </tr>
+    <tr>
+        <th>Data</th>
+        <th>Nome</th>
+        <th>Avaliação</th>
+    </tr>
+    <tr>
+        <th>25/04/2023</th>
+        <th>Manoela Fonseca</th>
+        <td>Muito bom!</td>
+    </tr>
+    <tr>
+        <th>03/04/2023</th>
+        <th>Juliano Filho</th>
+        <td>Ótimo atendimento</td>
+    </tr>
+    <tr>
+        <th>15/03/2023</th>
+        <th>Mariana Carvalho</th>
+        <td>Recomendo!</td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(21, 21, 151, 0.774);
+
+}
+div{
+    background-color: aliceblue;
+    font: normal 18pt Arial;
+    font-size: small;
+    border-radius: 5px;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+#peso{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+#altura{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+#enviar{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0%;
+    background-color: rgba(21, 21, 151, 0.774);
+    color: white;
+    border-style: none;
+    padding: 5px;
+}
+.texto{
+    text-align: justify;
+    line-height: 1.8;
+    margin: 15px;
+}
+h3{
+    margin: 15px;
+}
+#res{
+    margin: 15px
+}
