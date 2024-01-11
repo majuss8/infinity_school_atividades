@@ -29,7 +29,7 @@ def excluirContato(nome):
 
 def consultarContato(nome):
     if nome in agendaTelefones:
-        print(agendaTelefones[nome])
+        print(nome + ' - ' + agendaTelefones[nome])
     else:
         print('O nome informado não está na lista')
 
@@ -56,26 +56,27 @@ while True:
         telefone = int(input('Informe o telefone do novo contato: '))
         incluirContato(nome, telefone)
     
-    if opcao == 2:
+    elif opcao == 2:
         nome = str(input('Informe o nome do contato que deseja alterar: '))
         telefone = int(input('Informe o novo telefone do contato: '))
         alterarContato(nome, telefone)
     
-    if opcao == 3:
+    elif opcao == 3:
         nome = str(input('Informe o nome do contato para excluir: '))
         excluirContato(nome)
 
-    if opcao == 4:
+    elif opcao == 4:
         nome = str(input('Informe o nome do contato para consulta: '))
         consultarContato(nome)
 
-    if opcao == 5:
+    elif opcao == 5:
         consultarContatos()
 
-    if opcao == 6:
+    elif opcao == 6:
         limparContatos()
 
-    if opcao == 7:
+    elif opcao == 7:
         break
 
-    print('Opção inválida!')
+    else:
+        print('Opção inválida!')
